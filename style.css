@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 50px;
+	font-family: Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #eeeeee;
+	padding: 10px;
+}
+
+.site-name {
+	font-size: 18px;
+}
+
+.right-nav {
+	display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+
+.right-nav a {
+	padding-right: 10px;
+	color: purple;
+}
+
+form {
+	margin-bottom: 30px;
+}
+
+.search-form {
+	padding: 30px;
+}
+
+.search-form label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.thin-border {
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+}
+
+.search-form .search-field {
+	font-size: 24px;
+	width: 400px;
+	padding: 5px;	
+}
+
+.search-field::placeholder {
+	color: #cccccc;
+}
+
+.search-form input[type=image] {
+	position: absolute;
+	width: 40px;
+	margin-left: 5px;
+	padding: 5px;
+}
+
+.pagination-nav {
+	display: inline-block;
+	font-size: 0;
+}
+
+.pagination-txt {
+	display: inline-block;
+	font-size: 16px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;	
+	padding: 8px 15px;
+}
+
+.pagination-control {
+	font-size: 16px;
+	padding: 8px 15px;
+	color: black;
+}
+
+.results ul {
+	list-style: none;
+	margin-left: -10px;
+	color: #999999;
+}
+
+.results li {
+	margin-bottom: 10px;
+}
+
+.results a {
+	margin: 0 5px;
+	color: blue;
+	font-weight: bold;
+}
